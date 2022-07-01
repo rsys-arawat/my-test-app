@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 function fetchUserInputEML(req, res, next) {
-  const myUrl = publicIp + "/gatherAction";
+  const myUrl = publicIp + "gatherAction";
 
   // If you are using NGROK - edit the path - see below NGROK section for details.
 
