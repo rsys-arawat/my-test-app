@@ -12,7 +12,7 @@ var qs = require("qs");
 
 const port =  process.env.PORT || 3000;
 
-const publicIp = "localhost";
+const publicIp = process.env.PUBLIC_URL;
 
 app.listen(port, () => {
   console.log(`Node server is running at http://localhost:${port}`);
