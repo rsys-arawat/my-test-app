@@ -28,7 +28,7 @@ function fetchUserInputEML(req, res, next) {
   return (
     '<?xml version="1.0" encoding="UTF-8"?> <Response> <Gather input="dtmf" timeout="5" actionOnEmptyResult="true" action="' +
     myUrl +
-    '"><Say> Welcome to Engage Digital Platform ! </Say> <Say> Please provide your input </Say> </Gather> </Response>'
+    '"><Say> Welcome to ABC Enterprises ! </Say> <Say> Please provide your input </Say> </Gather> </Response>'
   );
 }
 // Hello -----
