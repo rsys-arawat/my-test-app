@@ -1,5 +1,4 @@
-// This is a test message added for testing purpose
-// *************************************************
+
 const express = require("express");
 
 const app = express();
